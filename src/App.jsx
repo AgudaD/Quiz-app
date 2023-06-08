@@ -9,8 +9,8 @@ function App() {
   const [score, setScore] = useState(0);
 
   return (
-    <div className="text-center font-grotesk font-semibold">
-      <h2 className="text-2xl">Quiz App</h2>
+    <div className="bg-[#C9A4CF] min-h-screen text-center font-grotesk font-semibold p-3">
+      <h2 className="text-2xl pt-5">Quiz App</h2>
 
       <QuizContext.Provider value={{ gameState, setGameState, score, setScore }}>
         {gameState === "menu" && <MainMenu />}

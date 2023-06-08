@@ -1,7 +1,7 @@
 
 const EndScreen = () => {
   return (
-    <div>
+    <div className="h-[40rem] flex flex-col justify-center items-center">
       EndScreen
     </div>
   )
