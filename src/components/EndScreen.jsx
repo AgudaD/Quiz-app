@@ -1,9 +1,8 @@
 
-
 const EndScreen = () => {
   return (
     <div>
-      End Screen
+      EndScreen
     </div>
   )
 }
