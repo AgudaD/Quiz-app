@@ -1,4 +1,4 @@
-import { useState, useContext } from "react";
+import { useState } from "react";
 import MainMenu from "./components/MainMenu";
 import Quiz from "./components/Quiz";
 import EndScreen from "./components/EndScreen";

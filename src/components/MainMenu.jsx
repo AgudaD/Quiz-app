@@ -1,16 +1,22 @@
-import { useContext } from "react"
-import { QuizContext } from "../helpers/Context"
-import illustration from '../assets/Customer Survey-rafiki.svg'
+import { useContext } from "react";
+import { QuizContext } from "../helpers/Context";
+import illustration from "../assets/Customer Survey-rafiki.svg";
 
 const MainMenu = () => {
-    const {gameState, setGameState} = useContext(QuizContext)
+  const { setGameState } = useContext(QuizContext);
   return (
-    <div className="h-[40rem] flex flex-col justify-center items-center">
-        <img src={illustration} alt="" className=" w-[30rem] " />
-        <button className="border-2 border-black px-6 py-1.5 rounded-md hover:bg-[#ffffff2c]" onClick={() => {setGameState
-        ("quiz")}}>Start Quiz</button>
+    <div className="flex h-[40rem] flex-col items-center justify-center">
+      <img src={illustration} alt="" className=" w-[30rem] " />
+      <button
+        className="rounded-md border-2 border-black px-6 py-1.5 hover:bg-[#ffffff2c]"
+        onClick={() => {
+          setGameState("quiz");
+        }}
+      >
+        Begin
+      </button>
     </div>
-  )
-}
+  );
+};
 
-export default MainMenu
+export default MainMenu;

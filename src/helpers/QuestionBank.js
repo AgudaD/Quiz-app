@@ -23,4 +23,28 @@ export const Questions = [
         optionD: "Kevin Powell",
         answer: "D",
     },
+    {
+        prompt: 'Which is the best mode in call of duty mobile?',
+        optionA: "Multiplayer",
+        optionB: "Zombie",
+        optionC: "Training",
+        optionD: "Battle Royale",
+        answer: "D",
+    },
+    {
+        prompt: 'Who wrote the famous book "Rich Dad Poor Dad"',
+        optionA: "Robert Kiyosaki",
+        optionB: "Juan Pedro",
+        optionC: "Al Amin Hassan",
+        optionD: "Robert Huerta",
+        answer: "A",
+    },
+    {
+        prompt: 'What does HTML stand for?',
+        optionA: "Hyper Train",
+        optionB: "PedroTech",
+        optionC: "NetNinja",
+        optionD: "Kevin Powell",
+        answer: "D",
+    },
 ]
