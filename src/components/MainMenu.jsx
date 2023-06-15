@@ -9,9 +9,7 @@ const MainMenu = () => {
       <img src={illustration} alt="" className=" w-[30rem] " />
       <button
         className="rounded-md border-2 border-black px-6 py-1.5 hover:bg-[#ffffff2c]"
-        onClick={() => {
-          setGameState("quiz");
-        }}
+        onClick={() => setGameState("instructions")}
       >
         Begin
       </button>

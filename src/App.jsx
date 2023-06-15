@@ -1,5 +1,6 @@
 import { useState } from "react";
 import MainMenu from "./components/MainMenu";
+import Instructions from "./components/Instructions";
 import Quiz from "./components/Quiz";
 import EndScreen from "./components/EndScreen";
 import { QuizContext } from "./helpers/Context";
@@ -14,6 +15,7 @@ function App() {
 
       <QuizContext.Provider value={{ gameState, setGameState, score, setScore }}>
         {gameState === "menu" && <MainMenu />}
+        {gameState === "instructions" && <Instructions />}
         {gameState === "quiz" && <Quiz />}
         {gameState === "endScreen" && <EndScreen />}
       </QuizContext.Provider>
